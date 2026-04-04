@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title> Rkecil </title>
+    <link rel="stylesheet" href="style.css" />
+    <!-- <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script> -->
+</head>
+
+<audio id="bgMusic" loop>
+    <source src="yougottimeigotmoney.mp3" type="audio/mp3">
+</audio>
+
+<body class="body1">
+
+    <!-- PAGE 1 START -->
+    <section id="page1" class="active">
+        <div class="main-container1">
+            <div id="lightOverlay"></div>
+            <button class="buttonpage1" type="button" onclick="buttonpage1('page2')" style="font-weight:700;">
+                turn the light on!
+            </button>
+        </div>
+    </section>
+    <!-- PAGE 1 END -->
+
+    <!-- PAGE 3 START -->
+    <section id="page3">
+        <div class="main-container3">
+            <h1 class="hbd" style="font-size: 108px; text-align: left;">
+                HAPPY
+                <br>
+                BIRTHDAY
+                <br>
+                RACHEL
+            </h1>
+            <img class="imgcontainer3" src="rkecil.jpeg" alt="Bocil" style="width: 500px; height: auto;">
+
+            <div class="balloon-container"></div>
+
+            <button class="buttonpage3" type="button" onclick="buttonpage3('page3')" style="font-weight:700;">
+                next
+            </button>
+        </div>
+    </section>
+    <!-- PAGE 3 END -->
+
+    <!-- PAGE 4 START -->
+    <section id="page4" class="hidden">
+        <div class="main-container4">
+            <div>
+                <div id="love-container"></div>
+
+                <button class="buttonpage41" type="button" onclick="buttonpage41('page41')"
+                    style="font-weight: 700;">the prettiest girl i have ever seen</button>
+
+                <button class="buttonpage42" onclick="openLetter42()" type="button" style="font-weight: 700;">
+                a letter to you
+                </button>
+
+                <div id="letterModal42" class="letter-modal42">
+                <div class="letter-content42">
+
+                    <span class="close42" onclick="closeLetter42()">&times;</span>
+                <div class="letteroverflow">
+                    <h2>a letter to you</h2>
+
+                    <p>
+                    hsdusgduygdygsfhjgfhsgfdhj <br><br>
+                    (isi surat panjang kamu di sini...)<br><br>
+                    (isi surat panjang kamu di sini...)<br><br>
+                    (isi surat panjang kamu di sini...)<br><br>
+                    (isi surat panjang kamu di sini...)<br><br>
+                    (isi surat panjang kamu di sini...)<br><br><br><br>
+                    (isi surat panjang kamu di sini...)<br><br>
+                    (isi surat panjang kamu di sini...)<br><br>
+                    (isi surat panjang kamu di sini...)<br><br><br><br>
+<br><br>
+                    (isi surat panjang kamu di sini...)
+                    (isi surat panjang kamu di sini...)
+                    (isi surat panjang kamu di sini...)
+                    (isi surat panjang kamu di sini...)<br><br>
+                    (isi surat panjang kamu di sini...)<br><br>
+                    (isi surat panjang kamu di sini...)
+                     (isi surat panjang kamu di sini...)
+                    (isi surat panjang kamu di sini...)<br><br>
+                    (isi surat panjang kamu di sini...)<br><br>
+                    (isi surat panjang kamu di sini...)<br><br>
+                    (isi surat panjang kamu di sini...)
+                    (isi surat panjang kamu di sini...)
+
+                    (isi surat panjang kamu di sini...)
+                    (isi surat panjang kamu di sini...)
+                    (isi surat panjang kamu di sini...)
+                    (isi surat panjang kamu di sini...)
+                    (isi surat panjang kamu di sini...)
+                    </p>
+                </div>
+                </div>
+                </div>
+
+
+                <button id="buttonpage43" onclick="openModal43()" type="button" style="font-weight: 700;">for every i love yous i haven't got to say back</button>
+
+                <button class="buttonpage44" onclick="openImage44()" type="button" style="font-weight: 700;">to love & to be loved</button>
+                <div id="imageModal44" class="image-modal44">
+                    <span class="close44" onclick="closeImage44()">&times;</span>
+                    <img id="popupImg44" src="ra.png">
+                </div>
+
+                <button class="buttonpageback" type="button" onclick="buttonpageback('pageback')"
+                    style="font-weight: 700;">previous</button>
+            </div>
+
+            <div id="myModal" class="modal-overlay">
+                <div class="modal-content43">
+                    <span class="close-btn" onclick="closeModal43()">&times;</span>
+                    <div class="modal-body">
+                        <h2 style="color: #3a5a40;">for every i love yous i haven't got to say back</h2>
+                        <p style="color: #3a5a40;" id="typeLoop"></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- PAGE 4 END -->
+
+    <!-- PAGE 41 START -->
+    <section id="page41" class="hidden">
+        <div class="main-container4-1">
+            <div>
+                <h1 class="titlepage41">the prettiest girl i have ever seen</h1>
+            </div>
+
+            <button class="backBtn41" type="button" onclick="backBtn41('page41')">previous</button>
+            <div class="gallery">
+                <img src="r1.jpeg" class="gallery-item"
+                    onclick="openModalgallery(this.src, 'at  mako  puri  -  dec  25th  2025')" width="200">
+
+                <img src="r2.jpeg" class="gallery-item"
+                    onclick="openModalgallery(this.src, 'at  pbtp  martha  tiahahu  literacy  park  -  jan  24th  2026')" width="200">
+
+                <img src="r3.jpeg" class="gallery-item"
+                    onclick="openModalgallery(this.src, 'at kopikalyan menteng  -  jan  16th  2026')" width="200">
+
+                <img src="r4.jpeg" class="gallery-item"
+                onclick="openModalgallery(this.src, 'at  kopi  klotok  jogja  -  feb  8th  2026')" width="200">
+
+                <img src="r5.jpeg" class="gallery-item"
+                    onclick="openModalgallery(this.src, 'at  mie  godok  jogja  -  feb  8th  2026')" width="200">
+
+                <img src="r6.jpeg" class="gallery-item"
+                    onclick="openModalgallery(this.src, 'at  susu  bahagia  blok m  -  feb  21st  2026')" width="200">
+                
+                <img src="r12.jpeg" class="gallery-item"
+                    onclick="openModalgallery(this.src, 'at  rumah  sejoli  punawarman  bandung  -  mar  27th  2026')" width="200">
+
+                <img src="r8.jpeg" class="gallery-item"
+                    onclick="openModalgallery(this.src, 'at  sicara  coffee  -  dec  15th  2026')" width="200">
+
+                <img src="r9.jpeg" class="gallery-item"
+                    onclick="openModalgallery(this.src, 'at  gandaria  city  mall  -  dec  27th  2026')" width="200">
+
+                <img src="r10.jpeg" class="gallery-item"
+                onclick="openModalgallery(this.src, 'at  pracimasana  mangkunegaran  jogja  -  feb  7th  2026')" width="200">
+
+                <img src="r11.jpeg" class="gallery-item"
+                    onclick="openModalgallery(this.src, 'at  mcd  jl.  panjang  -  feb  14th  2026')" width="200">
+                    
+                <img src="r7.jpeg" class="gallery-item"
+                    onclick="openModalgallery(this.src, 'at  greenville  library  -  jan 10th 2026')" width="200">
+            </div>
+
+            <div id="modalgallery" class="modal">
+                <span class="close" onclick="closeModalgallery()">&times;</span>
+                <img id="modal-img" class="modal-content">
+                <div id="caption" class="caption"></div>
+            </div>
+        </div>
+    </section>
+    <!-- PAGE 41 END -->
+
+    <!-- PAGE 42 START -->
+    <section id="page42" class="hidden">
+        <div class="main-container4-2">
+            <div>
+                <h1 class="titlepage42">all of me loves all of you</h1>
+            </div>
+
+            <button class="backBtn42" type="button" onclick="backBtn42('page42')">previous</button>
+            <!-- <div class="main-article">
+                <div class="article">
+                    <p style="font-weight: 600;">Jakarta, 20 Februari 2026</p>
+
+                    <p>
+                        [Verse 1]-flowing sails
+                        And the liquor in our cocktailsets and the fates
+                        And all the stars aligned
+                        You and I ended up in the same room
+                        At the same time
+
+                        [Pre-Chorus]
+                        And the touch of a hand lit the fuse
+                        Of a chain reaction of countermoves
+                        To assess the equation of you
+                        Checkmate, I couldn't lose
+
+                        [Chorus]
+                        What if I told you none of it was accidental?
+                        And the first night that you saw me
+                        Nothing was gonna stop me
+
+                        [Pre-Chorus]
+                        If you fail to plan, you plan to fail
+                        Strategy sets the scene for the tale
+                        I'm the wind in our free-flowing sails
+                        And the liquor in our cocktails
+
+                        [Chorus]
+                        What if I told you none of it was accidental?
+                        And the first night that you saw me
+                        I knew I wanted your body
+                        I laid the groundwork, and then
+                        Just like clockwork
+                        The dominoes cascaded in a line
+                        What if I told you I'm a mastermind?
+                        And now you're mine
+                        It was all my design
+                        'Cause I'm a mastermind
+
+                        [Bridge]
+                        No one wanted to play with me as a little kid
+                        So I've been scheming like a criminal ever since
+                        To make them love me and make it seem effortless
+                        This is the first time I've felt the need to confess
+                        And I swear
+                        I'm only cryptic and Machiavellian
+                        'Cause I care
+                    </p>
+                </div>
+            </div>
+    </section> -->
+    <!-- PAGE 42 END -->
+
+
+
+    <!-- Footer-->
+    <!-- <footer>
+        <p>&#169; 2024 - Made by Luck of Poetry</p>
+    </footer> -->
+    <!--End of Footer -->
+
+</body>
+
+<script src="main.js"></script>
+
+</html>
