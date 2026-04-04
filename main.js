@@ -152,13 +152,13 @@ function createBalloon(container) {
   const balloon = document.createElement('img');
   
   const balloonImages = [
-    "images/b1.png",
-    "images/b2.png",
-    "images/b3.png",
-    "images/b4.png",
-    "images/b5.png",
-    "images/b6.png",
-    "images/b7.png"
+    "b1.png",
+    "b2.png",
+    "b3.png",
+    "b4.png",
+    "b5.png",
+    "b6.png",
+    "b7.png"
   ];
 
   balloon.src = balloonImages[Math.floor(Math.random() * balloonImages.length)];
@@ -219,8 +219,8 @@ function startLoveRain(){
   const container = document.getElementById("love-container");
 
   const loveImages = [
-    "images/whitelove.png",
-    "images/greenlove.png"
+    "whitelove.png",
+    "greenlove.png"
   ];
 
   setInterval(()=>{
