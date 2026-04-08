@@ -93,10 +93,10 @@ section.active {
     margin: 0;
     display: flex;
     text-align: left;
-    padding-top: 100px;
+    padding-top: 80px;
     position: absolute;
-    top: 7%;
-    left: 15%;
+    top: 0%;
+    left: 13%;
     opacity: 1;
 }
 
@@ -120,8 +120,8 @@ section.active {
   border: 1px solid #ddd;
   border-radius: 4px;
   position: absolute;
-  top: 27%;
-  left: 55%;
+  top: 18%;
+  left: 52%;
   opacity: 1;
 }
 
@@ -159,7 +159,7 @@ section.active {
   color: var(--SecondaryColor);
   padding: 10px 20px;
   position: absolute;
-  top: 80%;
+  top: 85%;
   left: 50%;
   transform: translate(-50%, -50%);
   text-align: center;
@@ -546,7 +546,7 @@ section.active {
 .letter-content42 {
   background: white;
   border-radius: 20px;
-  padding: 30px;
+  padding: 20px;
 
   width: 70%;
 
@@ -558,7 +558,7 @@ section.active {
 .letteroverflow {
   max-height: 80vh;
   overflow-y: auto;
-  padding: 30px;
+  padding: 10px 70px;
 }
 
 /* animasi masuk */
@@ -574,6 +574,14 @@ section.active {
   left: 20px;
   font-size: 30px;
   cursor: pointer;
+}
+
+.img-article {
+  display: block;
+  margin: 0 auto;
+  border-radius: 5px;
+  width: 500px;
+  height: auto;
 }
 /* page 42 end */
 
